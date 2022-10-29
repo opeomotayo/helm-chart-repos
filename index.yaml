@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  nexus-helm-chart:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-10-29T13:46:39.990207833Z"
+    description: A Helm chart for Kubernetes
+    digest: 76a49f2fdd069784e68e2a7f20cec8d91d2257be06eb7c081c01bcd876852923
+    name: nexus-helm-chart
+    type: application
+    urls:
+    - nexus-helm-chart-0.1.0.tgz
+    version: 0.1.0
+generated: "2022-10-29T13:46:39.989375232Z"
