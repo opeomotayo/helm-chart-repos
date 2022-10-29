@@ -3,7 +3,7 @@ entries:
   nexus-helm-chart:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-10-29T13:46:39.990207833Z"
+    created: "2022-10-29T13:51:03.300119934Z"
     description: A Helm chart for Kubernetes
     digest: 76a49f2fdd069784e68e2a7f20cec8d91d2257be06eb7c081c01bcd876852923
     name: nexus-helm-chart
@@ -11,4 +11,33 @@ entries:
     urls:
     - nexus-helm-chart-0.1.0.tgz
     version: 0.1.0
-generated: "2022-10-29T13:46:39.989375232Z"
+  nexus-repository-manager:
+  - apiVersion: v2
+    appVersion: 3.42.0
+    created: "2022-10-29T13:51:03.301676204Z"
+    description: Sonatype Nexus Repository Manager - Universal Binary repository
+    digest: 0646cca316845c4f713f0c891250981a09f04cdf237675894a8a566714b57066
+    home: https://www.sonatype.com/nexus-repository-oss
+    icon: https://sonatype.github.io/helm3-charts/NexusRepo_Vertical.svg
+    keywords:
+    - artifacts
+    - dependency
+    - management
+    - sonatype
+    - nexus
+    - repository
+    - quickstart
+    - ci
+    - repository-manager
+    - nexus3
+    maintainers:
+    - email: support@sonatype.com
+      name: Sonatype
+    name: nexus-repository-manager
+    sources:
+    - https://github.com/sonatype/nexus-public
+    type: application
+    urls:
+    - nexus-repository-manager-42.0.1.tgz
+    version: 42.0.1
+generated: "2022-10-29T13:51:03.299361931Z"
