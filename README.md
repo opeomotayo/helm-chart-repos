@@ -1,8 +1,7 @@
+yaml```
 nexus/Chart.yaml
 helm package nexus -d charts
 helm repo index charts
-
-➜  helm-chart-repos git:(gh-pages) ✗ tree -L 2
 .
 |-- README.md
 |-- archive
@@ -27,3 +26,4 @@ helm repo index charts
     |-- templates
     |-- values.schema.json
     `-- values.yaml
+```
