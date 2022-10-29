@@ -3,9 +3,9 @@ entries:
   nexus-helm-chart:
   - apiVersion: v2
     appVersion: 3.42.0
-    created: "2022-10-29T13:53:22.907960824Z"
+    created: "2022-10-29T13:58:42.943326279Z"
     description: Sonatype Nexus Repository Manager - Universal Binary repository
-    digest: 1185e3ce4430d9b5ce04f8a5bb8d9b30f83098cc0349852b5a839bd225189a80
+    digest: e8881be50c5c073b15ece858b55534e6a5394c493ba68c621698655a6d2602f4
     home: https://www.sonatype.com/nexus-repository-oss
     icon: https://sonatype.github.io/helm3-charts/NexusRepo_Vertical.svg
     keywords:
@@ -29,4 +29,4 @@ entries:
     urls:
     - nexus-helm-chart-42.0.1.tgz
     version: 42.0.1
-generated: "2022-10-29T13:53:22.906044208Z"
+generated: "2022-10-29T13:58:42.940744075Z"
