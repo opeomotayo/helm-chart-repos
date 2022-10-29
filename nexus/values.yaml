@@ -43,12 +43,12 @@ nexus:
   resources:
   # minimum recommended memory settings for a small, person instance from
   # https://help.sonatype.com/repomanager3/product-information/system-requirements
-  #   requests:
-  #     cpu: 4
-  #     memory: 8Gi
-  #   limits:
-  #     cpu: 4
-  #     memory: 8Gi
+    requests:
+      cpu: 1
+      memory: 2Gi
+    limits:
+      cpu: 4
+      memory: 8Gi
 
   # The ports should only be changed if the nexus image uses a different port
   nexusPort: 8081
@@ -114,7 +114,7 @@ ingress:
   hostPath: /
   hostRepo: nexus.opeomotayo.net
   tls:
-    - secretName: nexus-local-tls
+    - secretName: nexus-tls-secret
       hosts:
         - nexus.opeomotayo.net
 

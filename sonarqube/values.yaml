@@ -102,11 +102,11 @@ ingress:
   # labels:
   #  traffic-type: external
   #  traffic-type: internal
-  tls: []
+  tls:
   # Secrets must be manually created in the namespace. To generate a self-signed certificate (and private key) and then create the secret in the cluster please refer to official documentation available at https://kubernetes.github.io/ingress-nginx/user-guide/tls/#tls-secrets
-  # - secretName: chart-example-tls
-  #   hosts:
-  #     - chart-example.local
+  - secretName: sonarqube-tls-secret
+    hosts:
+      - sonarqube.opeomotayo.net
 
 route:
   enabled: false
@@ -341,7 +341,7 @@ persistence:
   ##
   storageClass:
   accessMode: ReadWriteOnce
-  size: 5Gi
+  size: 3Gi
   uid: 1000
 
   ## Specify extra volumes. Refer to ".spec.volumes" specification : https://kubernetes.io/fr/docs/concepts/storage/volumes/
