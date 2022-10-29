@@ -1,4 +1,4 @@
-yaml```
+yaml"""
 nexus/Chart.yaml
 helm package nexus -d charts
 helm repo index charts
@@ -26,4 +26,4 @@ helm repo index charts
     |-- templates
     |-- values.schema.json
     -- values.yaml
-```
+"""
