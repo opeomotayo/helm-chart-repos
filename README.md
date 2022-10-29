@@ -8,7 +8,7 @@ helm repo index charts
 |-- charts
 |   |-- index.yaml
 |   |-- nexus-42.0.1.tgz
-|   `-- sonarqube-6.0.0+403.tgz
+|   -- sonarqube-6.0.0+403.tgz
 |-- nexus
 |   |-- Chart.yaml
 |   |-- LICENSE
@@ -16,8 +16,8 @@ helm repo index charts
 |   |-- templates
 |   |-- test-output.xml
 |   |-- tests
-|   `-- values.yaml
-`-- sonarqube
+|   -- values.yaml
+-- sonarqube
     |-- CHANGELOG.md
     |-- Chart.lock
     |-- Chart.yaml
@@ -25,5 +25,5 @@ helm repo index charts
     |-- charts
     |-- templates
     |-- values.schema.json
-    `-- values.yaml
+    -- values.yaml
 ```
