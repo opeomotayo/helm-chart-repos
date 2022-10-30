@@ -3,7 +3,7 @@ entries:
   nexus:
   - apiVersion: v2
     appVersion: 3.42.0
-    created: "2022-10-30T22:38:34.410324663Z"
+    created: "2022-10-30T22:42:15.070626923Z"
     description: Sonatype Nexus Repository Manager - Universal Binary repository
     digest: c0eb2945911d9279a251ae06fb6df02f06bf5637ba48e19d7b4aebbee82adb4c
     home: https://www.sonatype.com/nexus-repository-oss
@@ -32,7 +32,7 @@ entries:
   nexus-chart:
   - apiVersion: v2
     appVersion: 3.42.0
-    created: "2022-10-30T22:38:34.425880702Z"
+    created: "2022-10-30T22:42:15.088987101Z"
     description: Sonatype Nexus Repository Manager - Universal Binary repository
     digest: d8f6d3740c2a6f4a54fc15d30b6386f06409ea6724e63beda1c93fdf35e2e9a1
     home: https://www.sonatype.com/nexus-repository-oss
@@ -96,7 +96,7 @@ entries:
           url: https://github.com/SonarSource/helm-chart-sonarqube/tree/master/charts/sonarqube
     apiVersion: v2
     appVersion: 9.7.0
-    created: "2022-10-30T22:38:34.424878194Z"
+    created: "2022-10-30T22:42:15.087341339Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -165,7 +165,7 @@ entries:
           url: https://github.com/SonarSource/helm-chart-sonarqube/tree/master/charts/sonarqube
     apiVersion: v2
     appVersion: 9.7.0
-    created: "2022-10-30T22:38:34.436316065Z"
+    created: "2022-10-30T22:42:15.105810701Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -176,7 +176,7 @@ entries:
       repository: https://kubernetes.github.io/ingress-nginx
       version: 4.0.13
     description: SonarQube offers Code Quality and Code Security analysis for up to 27 languages. Find Bugs, Vulnerabilities, Security Hotspots and Code Smells throughout your workflow.
-    digest: bbe71e0b69a5191b6da1f93e2c8e1b92802813fc1e0309eecc1053df53a189e9
+    digest: dc449fa6171d92451544df9624ed674a7c1c4205dcb0d7385da1d005cf85f64c
     home: https://www.sonarqube.org/
     icon: https://www.sonarqube.org/assets/logo-31ad3115b1b4b120f3d1efd63e6b13ac9f1f89437f0cf6881cc4d8b5603a52b4.svg
     keywords:
@@ -196,4 +196,4 @@ entries:
     urls:
     - charts/sonarqube-chart-6.0.1.tgz
     version: 6.0.1
-generated: "2022-10-30T22:38:34.409160043Z"
+generated: "2022-10-30T22:42:15.068058295Z"
