@@ -3,7 +3,7 @@ entries:
   nexus:
   - apiVersion: v2
     appVersion: 3.42.0
-    created: "2022-10-30T22:23:06.354346546Z"
+    created: "2022-10-30T22:34:53.75215291Z"
     description: Sonatype Nexus Repository Manager - Universal Binary repository
     digest: c0eb2945911d9279a251ae06fb6df02f06bf5637ba48e19d7b4aebbee82adb4c
     home: https://www.sonatype.com/nexus-repository-oss
@@ -32,9 +32,9 @@ entries:
   nexus-chart:
   - apiVersion: v2
     appVersion: 3.42.0
-    created: "2022-10-30T22:23:06.376109318Z"
+    created: "2022-10-30T22:34:53.78152887Z"
     description: Sonatype Nexus Repository Manager - Universal Binary repository
-    digest: e53702b2666120008bc0b6691fc32c977015a445cb4162d73ed8b6580f9cc79c
+    digest: d8f6d3740c2a6f4a54fc15d30b6386f06409ea6724e63beda1c93fdf35e2e9a1
     home: https://www.sonatype.com/nexus-repository-oss
     icon: https://sonatype.github.io/helm3-charts/NexusRepo_Vertical.svg
     keywords:
@@ -96,7 +96,7 @@ entries:
           url: https://github.com/SonarSource/helm-chart-sonarqube/tree/master/charts/sonarqube
     apiVersion: v2
     appVersion: 9.7.0
-    created: "2022-10-30T22:23:06.372753076Z"
+    created: "2022-10-30T22:34:53.77157169Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -165,7 +165,7 @@ entries:
           url: https://github.com/SonarSource/helm-chart-sonarqube/tree/master/charts/sonarqube
     apiVersion: v2
     appVersion: 9.7.0
-    created: "2022-10-30T22:23:06.385391741Z"
+    created: "2022-10-30T22:34:53.814197574Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -176,7 +176,7 @@ entries:
       repository: https://kubernetes.github.io/ingress-nginx
       version: 4.0.13
     description: SonarQube offers Code Quality and Code Security analysis for up to 27 languages. Find Bugs, Vulnerabilities, Security Hotspots and Code Smells throughout your workflow.
-    digest: 0d7df08249201db6a73e1acafcd91c1a9aa936a29db5ca7fc8cf332a31d49cc2
+    digest: b18e6e8eb88aace90f6acb48f973e2a3d54f1f7624f23f0cae4ed56536c35dd2
     home: https://www.sonarqube.org/
     icon: https://www.sonarqube.org/assets/logo-31ad3115b1b4b120f3d1efd63e6b13ac9f1f89437f0cf6881cc4d8b5603a52b4.svg
     keywords:
@@ -196,4 +196,4 @@ entries:
     urls:
     - charts/sonarqube-chart-6.0.1.tgz
     version: 6.0.1
-generated: "2022-10-30T22:23:06.351034577Z"
+generated: "2022-10-30T22:34:53.750490478Z"
