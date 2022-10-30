@@ -5,7 +5,7 @@
 apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
-  name: {{ $fullName }}
+  name: nexus-ingress #{{ $fullName }}
   labels:
     {{- include "nexus.labels" . | nindent 4 }}
     {{- if .Values.nexus.extraLabels }}

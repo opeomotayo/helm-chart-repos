@@ -17,8 +17,8 @@ keywords:
 maintainers:
 - email: support@sonatype.com
   name: Sonatype
-name: nexus
+name: nexus-chart
 sources:
 - https://github.com/sonatype/nexus-public
 type: application
-version: 42.0.1
+version: 42.0.2

@@ -1,11 +1,11 @@
 apiVersion: v1
 entries:
-  nexus:
+  nexus-chart:
   - apiVersion: v2
     appVersion: 3.42.0
-    created: "2022-10-29T15:38:03.259006269Z"
+    created: "2022-10-30T09:19:33.947778447Z"
     description: Sonatype Nexus Repository Manager - Universal Binary repository
-    digest: c0eb2945911d9279a251ae06fb6df02f06bf5637ba48e19d7b4aebbee82adb4c
+    digest: f0db4681c188e67eeee1513a390458dcdfd9111bfc1f9504a6b1b0c3b474c894
     home: https://www.sonatype.com/nexus-repository-oss
     icon: https://sonatype.github.io/helm3-charts/NexusRepo_Vertical.svg
     keywords:
@@ -22,14 +22,14 @@ entries:
     maintainers:
     - email: support@sonatype.com
       name: Sonatype
-    name: nexus
+    name: nexus-chart
     sources:
     - https://github.com/sonatype/nexus-public
     type: application
     urls:
-    - nexus-42.0.1.tgz
-    version: 42.0.1
-  sonarqube:
+    - nexus-chart-42.0.2.tgz
+    version: 42.0.2
+  sonarqube-chart:
   - annotations:
       artifacthub.io/changes: |
         - kind: changed
@@ -67,7 +67,7 @@ entries:
           url: https://github.com/SonarSource/helm-chart-sonarqube/tree/master/charts/sonarqube
     apiVersion: v2
     appVersion: 9.7.0
-    created: "2022-10-29T15:38:03.274780702Z"
+    created: "2022-10-30T09:19:33.971650312Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -78,7 +78,7 @@ entries:
       repository: https://kubernetes.github.io/ingress-nginx
       version: 4.0.13
     description: SonarQube offers Code Quality and Code Security analysis for up to 27 languages. Find Bugs, Vulnerabilities, Security Hotspots and Code Smells throughout your workflow.
-    digest: d10f9d77946eb4b54f185940df253fc845cfd56f9269227579dc1ff7115c8cd3
+    digest: a275c6d70faee8e3136ff3eb5a493ec68ed9d4ceb291b69d9286c73b1902d415
     home: https://www.sonarqube.org/
     icon: https://www.sonarqube.org/assets/logo-31ad3115b1b4b120f3d1efd63e6b13ac9f1f89437f0cf6881cc4d8b5603a52b4.svg
     keywords:
@@ -90,12 +90,12 @@ entries:
     maintainers:
     - email: leo.geoffroy+helm@sonarsource.com
       name: leo-geoffroy-sonarsource
-    name: sonarqube
+    name: sonarqube-chart
     sources:
     - https://github.com/SonarSource/docker-sonarqube
     - https://github.com/SonarSource/sonarqube
     type: application
     urls:
-    - sonarqube-6.0.0+403.tgz
-    version: 6.0.0+403
-generated: "2022-10-29T15:38:03.255414332Z"
+    - sonarqube-chart-6.0.1.tgz
+    version: 6.0.1
+generated: "2022-10-30T09:19:33.945288528Z"
